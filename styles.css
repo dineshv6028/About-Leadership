@@ -1,0 +1,76 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.logo{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.header {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.profile-card {
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.profile-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+    transition: transform 0.3s;
+}
+
+.profile-card:hover img {
+    transform: scale(1.1);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #343a40;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+.bio {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.social-links a {
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #0056b3;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
